@@ -3,6 +3,8 @@ class roles::node {
   class{"puppet": } ->
   class{"nagios": } ->
   class{"mcollective": } ->
+  class{"apache": } ->
+  class{"varnish": } ->
   class{"motd": } ->
   Class[$name]
 }
