@@ -1,0 +1,40 @@
+{
+  "name": "example42-monit",
+  "version": "2.0.12",
+  "source": "https://github.com/example42/puppet-monit",
+  "author": "Alessandro Franceschi",
+  "license": "Apache2",
+  "summary": "Puppet module for monit",
+  "description": "This module installs and manages monit. Check README for details.",
+  "project_page": "http://www.example42.com",
+  "dependencies": [
+    {
+      "name": "example42/puppi",
+      "version_requirement": ">=2.0.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "9e712defb835c7cf43c33d5f382c05b7",
+    "README.md": "c65f8ba13abe90a2c210093805b530dd",
+    "Rakefile": "e90d68823ff237c89224eb139f8926ad",
+    "manifests/checkpid.pp": "3e064a2f6bf15a59a268ef383f75dcda",
+    "manifests/checkurl.pp": "b684ea8ddc77cc46fc326f6e87362209",
+    "manifests/dotconf.pp": "77ffa1fc87c838df00558c8c917bcb00",
+    "manifests/init.pp": "c9a6cf0c26db6b9dbecfe2911b90a6da",
+    "manifests/params.pp": "e36e0cadf2338c3a9cb79960dd48920b",
+    "manifests/spec.pp": "904fc9a1147121f55b3ba0fd3f1da3b0",
+    "spec/classes/monit_spec.rb": "57ecf40992fa3756799ed2e3e36504b4",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "templates/checkpid.erb": "160fbb4cdda54aaffe5680272a18405f",
+    "templates/checkurl.erb": "3bcb5756893edf4ca93b4cd64d8a8962",
+    "templates/config_init-debian.erb": "3ccbdb4a34df2664bda3f434f453d552",
+    "templates/monit.conf.erb": "34ec3a1efb3b912e0c82199260eb3eb9",
+    "templates/spec.erb": "95554a191230174b3ba5942f8d8d5b1e",
+    "tests/absent.pp": "7a63811977e7b3b66d5a7a83e55f9a10",
+    "tests/disable.pp": "b15b1d46265f119bf3c01530c6fcabb6",
+    "tests/init.pp": "9653d47d8f098a878ceb0d6090c6b0c0"
+  }
+}

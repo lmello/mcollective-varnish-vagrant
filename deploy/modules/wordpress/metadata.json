@@ -1,0 +1,45 @@
+{
+  "project_page": "http://www.example42.com",
+  "license": "Apache2",
+  "version": "2.0.6",
+  "dependencies": [
+    {
+      "version_requirement": ">= 2.0.0",
+      "name": "example42/puppi"
+    },
+    {
+      "version_requirement": ">= 2.0.0",
+      "name": "example42/apache"
+    },
+    {
+      "version_requirement": ">= 2.0.0",
+      "name": "example42/php"
+    }
+  ],
+  "checksums": {
+    "templates/apache/virtualhost.conf.erb": "396ef421f66e4a0379c9658c4950b2f3",
+    "manifests/mysql.pp": "1d66a8049e179dd42e07d4b3be3c06f4",
+    "templates/nginx/virtualhost.conf.erb": "b497dcd47688468f4a7e4c94980567a7",
+    "spec/spec_helper.rb": "0f25ef4c70a3671dc56da6eee8e7271e",
+    "manifests/nginx.pp": "8feba1d8f1219d4483655041dcf69525",
+    "Modulefile": "7022b53208b54483759f15846e39f6f3",
+    "manifests/install.pp": "e4a581a463225d739b1e4a198e46e40e",
+    "manifests/apache.pp": "f03341935569cecfc550d751f39289d9",
+    "templates/spec.erb": "95554a191230174b3ba5942f8d8d5b1e",
+    "manifests/spec.pp": "57294dd115b653f0d3dbf5575737779b",
+    "spec/classes/wordpress_spec.rb": "1f87eec049dda09f1498b6916c7acbd2",
+    "manifests/init.pp": "0b8cb44c62bd7e6600710141650be503",
+    "README.rdoc": "c62d33685f2be0b76e72020ab6748724",
+    "Rakefile": "db67bde0625f9c5f11fed4f117befe1e",
+    "manifests/params.pp": "93b4c102f5ab83899a9993322bf57411",
+    "templates/wp-config.php": "d0dc11b94b824f3bc5c7968cd1e4ab46"
+  },
+  "summary": "Puppet module for wordpress",
+  "source": "https://github.com/example42/puppet-wordpress",
+  "description": "This module installs and manages wordpress. Check README.rdoc for details. Puppi is required for some common functions: you can install them without using the whole module. Monitor and firewall dependencies are needed only if the relevant features are enabled",
+  "author": "Alessandro Franceschi",
+  "types": [
+
+  ],
+  "name": "example42-wordpress"
+}
