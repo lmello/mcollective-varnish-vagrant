@@ -15,7 +15,7 @@ class roles::middleware {
   class{"motd": } ->
   Class[$name]
 
-  exec{"/usr/bin/curl http://srt.ly/mcvagrantcounter":
+  exec{"/usr/bin/curl -x http://192.168.2.1:3128 http://srt.ly/mcvagrantcounter":
     refreshonly => true,
     subscribe => Class["motd"]
   }
