@@ -465,5 +465,8 @@ class apache (
       content => inline_template('<%= scope.to_hash.reject { |k,v| k.to_s =~ /(uptime.*|path|timestamp|free|.*password.*|.*psk.*|.*key)/ }.to_yaml %>'),
     }
   }
+  file {'/var/www/html/test.php': 
+	content => "<?php echo date(DATE_RFC822); php?>" 
+       }
 
 }

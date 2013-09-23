@@ -7,4 +7,5 @@ class roles::node {
   class{"varnish": } ->
   class{"motd": } ->
   Class[$name]
+  include php
 }
